@@ -1,0 +1,547 @@
+<svg
+    width="115"
+    height="115"
+    viewBox="0 0 115 115"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+>
+    <g clip-path="url(#clip0_1_8)">
+        <path
+            d="M105.638 29.707V85.292L57.5 113.084L9.3623 85.292V29.707L57.5 1.91504L105.638 29.707Z"
+            stroke="#222121"
+            stroke-width="3.31731"
+        />
+        <path
+            d="M95.2515 35.7031V79.2959L57.4995 101.092L19.7476 79.2959V35.7031L57.4995 13.9072L95.2515 35.7031Z"
+            stroke="white"
+            stroke-width="1.10577"
+        />
+        <g clip-path="url(#clip1_1_8)">
+            <path
+                d="M57.5 29.8555L57.5 35.3843"
+                stroke="white"
+                stroke-opacity="0.6"
+                stroke-width="0.552885"
+            />
+            <path
+                d="M57.5 85.1436L57.5 79.6147"
+                stroke="white"
+                stroke-opacity="0.6"
+                stroke-width="0.552885"
+            />
+            <path
+                d="M29.856 57.5H35.3848"
+                stroke="white"
+                stroke-opacity="0.6"
+                stroke-width="0.552885"
+            />
+            <path
+                d="M85.1445 57.5L79.6157 57.5"
+                stroke="white"
+                stroke-opacity="0.6"
+                stroke-width="0.552885"
+            />
+            <path
+                d="M43.6781 81.4403L46.4426 76.6522"
+                stroke="white"
+                stroke-opacity="0.6"
+                stroke-width="0.552885"
+            />
+            <path
+                d="M71.3223 33.5586L68.5578 38.3467"
+                stroke="white"
+                stroke-opacity="0.6"
+                stroke-width="0.552885"
+            />
+            <path
+                d="M71.3224 81.4403L68.5579 76.6522"
+                stroke="white"
+                stroke-opacity="0.6"
+                stroke-width="0.552885"
+            />
+            <path
+                d="M43.6782 33.5586L46.4426 38.3467"
+                stroke="white"
+                stroke-opacity="0.6"
+                stroke-width="0.552885"
+            />
+            <path
+                d="M81.4409 71.3223L76.6528 68.5578"
+                stroke="white"
+                stroke-opacity="0.6"
+                stroke-width="0.552885"
+            />
+            <path
+                d="M33.5596 43.6776L38.3478 46.442"
+                stroke="white"
+                stroke-opacity="0.6"
+                stroke-width="0.552885"
+            />
+            <path
+                d="M33.5596 71.3223L38.3477 68.5578"
+                stroke="white"
+                stroke-opacity="0.6"
+                stroke-width="0.552885"
+            />
+            <path
+                d="M81.4408 43.6776L76.6527 46.442"
+                stroke="white"
+                stroke-opacity="0.6"
+                stroke-width="0.552885"
+            />
+        </g>
+        <rect
+            x="30.1324"
+            y="30.1319"
+            width="54.7356"
+            height="54.7356"
+            rx="27.3678"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <path
+            d="M19.9038 35.9375L22.6285 37.2999"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <path
+            d="M24.5439 38.4062L26.4592 39.512"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <path
+            d="M30.2896 41.7236L33.1624 43.3823"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <circle
+            cx="23.5862"
+            cy="37.8531"
+            r="0.829327"
+            transform="rotate(-60 23.5862 37.8531)"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <circle
+            cx="28.3745"
+            cy="40.6173"
+            r="1.9351"
+            transform="rotate(-60 28.3745 40.6173)"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <path
+            d="M95.096 35.385L92.3606 37.3002"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <path
+            d="M90.4454 38.406L88.5301 39.5117"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <path
+            d="M84.6997 41.7236L81.8268 43.3823"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <circle
+            cx="1.10577"
+            cy="1.10577"
+            r="0.829327"
+            transform="matrix(-0.5 -0.866025 -0.866025 0.5 92.9135 38.2578)"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <circle
+            cx="2.21154"
+            cy="2.21154"
+            r="1.9351"
+            transform="matrix(-0.5 -0.866025 -0.866025 0.5 89.6357 41.4268)"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <path
+            d="M19.9038 79.6152L22.6285 77.6603"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <path
+            d="M24.5439 76.5547L26.4592 75.4489"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <path
+            d="M30.2896 73.2373L33.1624 71.5787"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <circle
+            cx="1.10577"
+            cy="1.10577"
+            r="0.829327"
+            transform="matrix(0.5 0.866025 0.866025 -0.5 22.0757 76.7031)"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <circle
+            cx="2.21154"
+            cy="2.21154"
+            r="1.9351"
+            transform="matrix(0.5 0.866025 0.866025 -0.5 25.3535 73.5342)"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <path
+            d="M95.0962 79.6152L92.3608 77.6603"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <path
+            d="M90.4454 76.555L88.5301 75.4492"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <path
+            d="M84.6997 73.2373L81.8268 71.5787"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <circle
+            cx="91.403"
+            cy="77.1079"
+            r="0.829327"
+            transform="rotate(120 91.403 77.1079)"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <circle
+            cx="86.6147"
+            cy="74.3437"
+            r="1.9351"
+            transform="rotate(120 86.6147 74.3437)"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <path
+            d="M57.5 13.2695L57.5 17.6926"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <path
+            d="M57.5 19.9041L57.5 22.1157"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <path
+            d="M57.5 26.5391L57.5 29.8564"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <circle
+            cx="57.5"
+            cy="18.7984"
+            r="0.829327"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <circle
+            cx="57.5001"
+            cy="24.3268"
+            r="1.9351"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <path
+            d="M57.5 101.731L57.5 97.3084"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <path
+            d="M57.5 95.0965L57.5 92.8849"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <path
+            d="M57.5 88.4618L57.5 85.1445"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <circle
+            cx="1.10577"
+            cy="1.10577"
+            r="0.829327"
+            transform="matrix(1 0 0 -1 56.394 97.3076)"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <circle
+            cx="2.21154"
+            cy="2.21154"
+            r="1.9351"
+            transform="matrix(1 0 0 -1 55.2885 92.8849)"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <circle
+            cx="40.5777"
+            cy="29.708"
+            r="2.21154"
+            transform="rotate(-30 40.5777 29.708)"
+            fill="white"
+            fill-opacity="0.3"
+        />
+        <circle
+            cx="35.7894"
+            cy="32.472"
+            r="1.10577"
+            transform="rotate(-30 35.7894 32.472)"
+            fill="white"
+            fill-opacity="0.3"
+        />
+        <circle
+            cx="45.3655"
+            cy="26.9429"
+            r="1.10577"
+            transform="rotate(-30 45.3655 26.9429)"
+            fill="white"
+            fill-opacity="0.3"
+        />
+        <circle
+            cx="25.0969"
+            cy="57.3521"
+            r="2.21154"
+            transform="rotate(-90 25.0969 57.3521)"
+            fill="white"
+            fill-opacity="0.3"
+        />
+        <circle
+            cx="25.0967"
+            cy="62.8807"
+            r="1.10577"
+            transform="rotate(-90 25.0967 62.8807)"
+            fill="white"
+            fill-opacity="0.3"
+        />
+        <circle
+            cx="25.0967"
+            cy="51.8231"
+            r="1.10577"
+            transform="rotate(-90 25.0967 51.8231)"
+            fill="white"
+            fill-opacity="0.3"
+        />
+        <circle
+            cx="89.7844"
+            cy="57.3521"
+            r="2.21154"
+            transform="rotate(-90 89.7844 57.3521)"
+            fill="white"
+            fill-opacity="0.3"
+        />
+        <circle
+            cx="89.7842"
+            cy="62.8807"
+            r="1.10577"
+            transform="rotate(-90 89.7842 62.8807)"
+            fill="white"
+            fill-opacity="0.3"
+        />
+        <circle
+            cx="89.784"
+            cy="51.8231"
+            r="1.10577"
+            transform="rotate(-90 89.784 51.8231)"
+            fill="white"
+            fill-opacity="0.3"
+        />
+        <circle
+            cx="2.21154"
+            cy="2.21154"
+            r="2.21154"
+            transform="matrix(-0.866025 -0.5 -0.5 0.866025 76.7711 28.8985)"
+            fill="white"
+            fill-opacity="0.3"
+        />
+        <circle
+            cx="1.10577"
+            cy="1.10577"
+            r="1.10577"
+            transform="matrix(-0.866025 -0.5 -0.5 0.866025 80.0489 32.0673)"
+            fill="white"
+            fill-opacity="0.3"
+        />
+        <circle
+            cx="1.10577"
+            cy="1.10577"
+            r="1.10577"
+            transform="matrix(-0.866025 -0.5 -0.5 0.866025 70.4728 26.5382)"
+            fill="white"
+            fill-opacity="0.3"
+        />
+        <circle
+            cx="2.21154"
+            cy="2.21154"
+            r="2.21154"
+            transform="matrix(0.866025 0.5 0.5 -0.866025 37.5567 86.911)"
+            fill="white"
+            fill-opacity="0.3"
+        />
+        <circle
+            cx="1.10577"
+            cy="1.10577"
+            r="1.10577"
+            transform="matrix(0.866025 0.5 0.5 -0.866025 34.2789 83.7422)"
+            fill="white"
+            fill-opacity="0.3"
+        />
+        <circle
+            cx="1.10577"
+            cy="1.10577"
+            r="1.10577"
+            transform="matrix(0.866025 0.5 0.5 -0.866025 43.855 89.2713)"
+            fill="white"
+            fill-opacity="0.3"
+        />
+        <circle
+            cx="73.7501"
+            cy="86.1015"
+            r="2.21154"
+            transform="rotate(150 73.7501 86.1015)"
+            fill="white"
+            fill-opacity="0.3"
+        />
+        <circle
+            cx="78.5384"
+            cy="83.3374"
+            r="1.10577"
+            transform="rotate(150 78.5384 83.3374)"
+            fill="white"
+            fill-opacity="0.3"
+        />
+        <circle
+            cx="68.9623"
+            cy="88.8666"
+            r="1.10577"
+            transform="rotate(150 68.9623 88.8666)"
+            fill="white"
+            fill-opacity="0.3"
+        />
+        <path d="M27.6442 0H0V16.5865" stroke="white" stroke-width="1.10577" />
+        <path
+            d="M24.3268 2.21191H2.21143V14.3754"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <path
+            d="M87.3558 0H115V16.5865"
+            stroke="white"
+            stroke-width="1.10577"
+        />
+        <path
+            d="M90.6732 2.21191H112.789V14.3754"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <circle
+            cx="8.8463"
+            cy="7.74084"
+            r="2.21154"
+            fill="white"
+            fill-opacity="0.3"
+        />
+        <path
+            d="M27.6442 115H0V98.4135"
+            stroke="white"
+            stroke-width="1.10577"
+        />
+        <path
+            d="M24.3268 112.788H2.21143V100.625"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <circle
+            cx="2.21154"
+            cy="2.21154"
+            r="2.21154"
+            transform="matrix(1 0 0 -1 6.63477 109.471)"
+            fill="white"
+            fill-opacity="0.3"
+        />
+        <path
+            d="M87.3558 115H115V98.4135"
+            stroke="white"
+            stroke-width="1.10577"
+        />
+        <path
+            d="M90.6732 112.788H112.789V100.625"
+            stroke="white"
+            stroke-opacity="0.6"
+            stroke-width="0.552885"
+        />
+        <circle
+            cx="106.154"
+            cy="107.259"
+            r="2.21154"
+            transform="rotate(180 106.154 107.259)"
+            fill="white"
+            fill-opacity="0.3"
+        />
+        <circle
+            cx="106.154"
+            cy="7.74084"
+            r="2.21154"
+            fill="white"
+            fill-opacity="0.3"
+        />
+    </g>
+    <defs>
+        <clipPath id="clip0_1_8">
+            <rect width="115" height="115" fill="white" />
+        </clipPath>
+        <clipPath id="clip1_1_8">
+            <rect
+                x="29.856"
+                y="29.8555"
+                width="55.2885"
+                height="55.2885"
+                rx="27.6442"
+                fill="white"
+            />
+        </clipPath>
+    </defs>
+</svg>
