@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Anton_SC, Tulpen_One } from "next/font/google";
 import "./globals.css";
+import "@/styles/main.scss";
+import "@/styles/feature.scss";
+import "@/styles/section.scss";
+import "@/styles/card.scss";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -10,6 +14,16 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
     variable: "--font-geist-mono",
     subsets: ["latin"],
+});
+
+const tulpenOne = Tulpen_One({
+    variable: "--font-tulpen-one",
+    weight: "400",
+});
+
+const antonSC = Anton_SC({
+    variable: "--font-anton-sc",
+    weight: "400",
 });
 
 export const metadata: Metadata = {
@@ -25,7 +39,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+                className={`${geistSans.variable} ${geistMono.variable} ${antonSC.variable} ${tulpenOne.variable} antialiased`}
                 suppressHydrationWarning
             >
                 {children}
