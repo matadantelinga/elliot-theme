@@ -11,6 +11,7 @@ export default function Home() {
     <Container>
       <BannerSlider />
       <FeatureSection />
+      <TitleSection title="announcements" subTitle="Upcoming GAMES" />
       <TitleSection title="Most popular games" subTitle="ALL GAMES" />
       <SearchSection />
       <GamesSection />
