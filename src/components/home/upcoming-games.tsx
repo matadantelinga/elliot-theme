@@ -7,26 +7,26 @@ import SliderArrow from "../ui/slider-arrow";
 export const UpcomingGames = () => {
   const staticData = [
     {
-      image: "/images/games/game1.png",
-      title: "Mass Effect 3",
+      image: "/images/games/game11.png",
+      title: "Split Fiction",
       description:
         "Pathologic 2 is a survival horror RPG set in a mysterious plague-ridden town. You play as a healer struggling",
     },
     {
-      image: "/images/games/game2.png",
-      title: "Pathologic II",
+      image: "/images/games/game12.png",
+      title: "TES Online",
       description:
         "Pathologic 2 is a survival horror RPG set in a mysterious plague-ridden town. You play as a healer struggling",
     },
     {
-      image: "/images/games/game3.png",
-      title: "Hellblade II",
+      image: "/images/games/game13.png",
+      title: "Red dead redemption II",
       description:
         "Pathologic 2 is a survival horror RPG set in a mysterious plague-ridden town. You play as a healer struggling",
     },
     {
-      image: "/images/games/game4.png",
-      title: "Baldur’s Gate III",
+      image: "/images/games/game14.png",
+      title: "The elder ring",
       description:
         "Pathologic 2 is a survival horror RPG set in a mysterious plague-ridden town. You play as a healer struggling",
     },

@@ -32,7 +32,7 @@ export default function UpcomingGameCard({
         </div>
         <div className="mt-5 space-y-3 px-5 text-center">
           <h1 className="font-anton-sc text-4xl text-white">{title}</h1>
-          <p className="line-clamp-5 text-white opacity-70">{description}</p>
+          <p className="line-clamp-3 text-white opacity-70">{description}</p>
         </div>
       </CardContent>
       <CardFooter className="flex justify-center p-5">

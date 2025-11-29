@@ -57,6 +57,8 @@
 }
 
 .upcoming-card-content {
+  min-height: 200px;
+  max-height: 250px;
   clip-path: polygon(35% 10%, 0 10%, 0 80%, 100% 80%, 100% 10%, 65% 10%, 50% 0);
 }
 
