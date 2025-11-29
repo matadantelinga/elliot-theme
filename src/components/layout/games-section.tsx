@@ -1,4 +1,4 @@
-import GameCard from "@/components/ui/game-card";
+import GameCard from "@/components/cards/game-card";
 import React from "react";
 
 export default function GamesSection() {
@@ -77,15 +77,17 @@ export default function GamesSection() {
         },
     ];
     return (
-        <div className="mt-10 grid grid-cols-12 gap-3 space-y-5">
+        <div className="mt-10 grid grid-cols-10 gap-3 space-y-5">
             {staticData.map((data, index) => (
                 <React.Fragment key={index}>
-                    <GameCard
-                        key={index}
-                        image={data.image}
-                        title={data.title}
-                        description={data.description}
-                    />
+                   <div className="col-span-10 md:col-span-2">
+                        <GameCard
+                            key={index}
+                            image={data.image}
+                            title={data.title}
+                            description={data.description}
+                        />
+					</div>
                 </React.Fragment>
             ))}
         </div>

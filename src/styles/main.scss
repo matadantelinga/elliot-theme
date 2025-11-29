@@ -1,84 +1,138 @@
 :root {
-    --color-c-red: #631216;
-    --color-c-red-light: #f0131d;
-    --color-c-gray: #151515;
+  --color-c-red: #631216;
+  --color-c-red-light: #f0131d;
+  --color-c-gray: #151515;
+}
+
+.polygon-border {
+  background: url("/images/polygon.svg") center center no-repeat;
+  background-size: contain;
 }
 
 .bg-c-red {
-    background-color: var(--color-c-red);
+  background-color: var(--color-c-red);
 }
 
 .bg-c-red-light {
-    background-color: var(--color-c-red-light);
+  background-color: var(--color-c-red-light);
 }
 
 .bg-c-gray {
-    background-color: var(--color-c-gray);
+  background-color: var(--color-c-gray);
 }
 
 .text-c-red {
-    color: var(--color-c-red);
+  color: var(--color-c-red);
 }
 
 .text-c-red-light {
-    color: var(--color-c-red-light);
+  color: var(--color-c-red-light);
 }
 
 .font-anton-sc {
-    font-family: var(--font-anton-sc);
+  font-family: var(--font-anton-sc);
 }
 
 .font-tulpen-one {
-    font-family: var(--font-tulpen-one);
+  font-family: var(--font-tulpen-one);
+}
+
+.font-nordic {
+  font-family: "Nordic Thunder", sans-serif;
 }
 
 .button-bg {
-    background-image: url("/icons/button-bg.svg");
-    background-size: 100% 100%;
-    background-color: transparent;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("/icons/button-bg.svg");
+  background-size: 100% 100%;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .button-search-bg {
-    background-image: url("/icons/polygon.svg");
-    background-size: 100% 100%;
-    background-color: transparent;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("/icons/polygon.svg");
+  background-size: 100% 100%;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .divider {
-    display: flex;
+  display: flex;
 
-    &:before,
-    &:after {
-        content: "";
-        flex: 1;
-    }
+  &:before,
+  &:after {
+    content: "";
+    flex: 1;
+  }
 }
 
 .divider-svg {
-    &:before,
-    &:after {
-        height: 20px;
-        flex-shrink: 0;
-    }
+  &:before,
+  &:after {
+    height: 20px;
+    flex-shrink: 0;
+  }
 
-    &:before {
-        // background: linear-gradient(to right, blue, hotpink);
-        background-image: url("/icons/divider.svg");
-        background-size: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        rotate: 180deg;
-    }
+  &:before {
+    // background: linear-gradient(to right, blue, hotpink);
+    background-image: url("/icons/divider.svg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    rotate: 180deg;
+  }
 
-    &:after {
-        // background: linear-gradient(to left, blue, hotpink);
-        background-image: url("/icons/divider.svg");
-        background-size: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
+  &:after {
+    // background: linear-gradient(to left, blue, hotpink);
+    background-image: url("/icons/divider.svg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.dots {
+  background: url("/images/slider-line.png") right center no-repeat;
+  min-height: 550px;
+  .dot {
+    width: 16px;
+    height: 16px;
+    background-color: #ffffff36;
+    margin-bottom: 5px;
+    transform: rotate(45deg);
+    &.active {
+      background-color: #fff;
     }
+  }
+}
+
+.banner-image {
+  background: url("/images/viking.png") right center no-repeat;
+  min-height: 550px;
+  background-size: cover;
+}
+
+.socials {
+  ul {
+    li {
+      background: url("/images/social-decorator.svg") left center no-repeat;
+      background-size: 40px;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+
+      &:hover {
+        a {
+          img {
+            filter: brightness(0) saturate(100%) invert(17%) sepia(70%)
+              saturate(4875%) hue-rotate(355deg) brightness(89%) contrast(91%);
+          }
+        }
+      }
+    }
+  }
 }
