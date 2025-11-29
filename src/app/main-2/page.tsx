@@ -1,31 +1,31 @@
-import Container from "@/components/ui/container";
-import UpcomingGamesSection from "./_components/upcoming-games-section";
-import BannerSlider from "../main/_components/banner-slider";
-import FeatureSection from "../main/_components/feature-section";
-import TitleSection from "../main/_components/title-section";
-import PaginationSection from "../main/_components/pagination-section";
-import GamesSection from "../main/_components/games-section";
+import Container from "@/components/layout/container";
+import BannerSlider from "@/components/layout/banner-slider";
+import FeatureSection from "@/components/layout/feature-section";
+import GamesSection from "@/components/layout/games-section";
+import PaginationSection from "@/components/layout/pagination-section";
+import TitleSection from "@/components/layout/title-section";
+import { UpcomingGames } from "@/components/home/upcoming-games";
 import SearchSection from "./_components/search-section";
 
 export default function Main() {
-    return (
-        <Container>
-            <BannerSlider />
-            <FeatureSection />
-            <TitleSection
-                title="ANNOUNCEMENTS"
-                subTitle="UPCOMING GAMES"
-                withDivider
-            />
-            <UpcomingGamesSection />
-            <TitleSection
-                title="Most popular games"
-                subTitle="ALL GAMES"
-                withDivider
-            />
-            <SearchSection />
-            <GamesSection />
-            <PaginationSection />
-        </Container>
-    );
+  return (
+    <Container>
+      <BannerSlider />
+      <FeatureSection />
+      <TitleSection
+        title="ANNOUNCEMENTS"
+        subTitle="UPCOMING GAMES"
+        withDivider
+      />
+      <UpcomingGames />
+      <TitleSection
+        title="Most popular games"
+        subTitle="ALL GAMES"
+        withDivider
+      />
+      <SearchSection />
+      <GamesSection />
+      <PaginationSection />
+    </Container>
+  );
 }
