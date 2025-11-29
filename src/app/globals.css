@@ -122,3 +122,10 @@
         font-size: 16px;
     }
 }
+
+@layer demo {
+  .corner-shape-bevel {
+    corner-shape: bevel;
+    border-radius: 5rem;
+  }
+}
