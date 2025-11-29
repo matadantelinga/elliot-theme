@@ -15,50 +15,46 @@ export default function PaginationSection() {
         <Divider>
           <PaginationContent className="border-t border-b border-white/50">
             <PaginationItem>
-              <PaginationLink size="default" href="#">
-                <Button
-                  variant="ghost"
-                  className="font-anton-sc border-white/50 text-white/50"
-                  size="icon"
+              <PaginationLink size="default" href="#" className="rounded-none!">
+                <PaginationLink
+                  size="default"
+                  href="#"
+                  className="rounded-none! font-anton-sc text-white/50 hover:text-black"
                 >
                   1
-                </Button>
+                </PaginationLink>
               </PaginationLink>
             </PaginationItem>
             <PaginationItem>
-              <PaginationLink size="default" href="#">
-                <Button
-                  variant="ghost"
-                  className="font-anton-sc border-white/50 text-white/50"
-                  size="icon"
-                >
-                  2
-                </Button>
+              <PaginationLink
+                size="default"
+                href="#"
+                className="rounded-none! font-anton-sc text-white/50 hover:text-black"
+              >
+                2
               </PaginationLink>
             </PaginationItem>
             <PaginationItem>
-              <PaginationLink size="default" href="#">
-                <Button
-                  variant="ghost"
-                  className="font-anton-sc border-white/50 text-white/50"
-                  size="icon"
-                >
-                  3
-                </Button>
+              <PaginationLink
+                size="default"
+                href="#"
+                className="rounded-none! font-anton-sc text-white/50 hover:text-black"
+              >
+                3
               </PaginationLink>
             </PaginationItem>
             <PaginationItem>
               <PaginationEllipsis className="font-anton-sc border-white/50 text-white/50" />
             </PaginationItem>
             <PaginationItem>
-              <PaginationLink size="default" href="#">
-                <Button
-                  variant="ghost"
-                  className="font-anton-sc border-white/50 text-white/50"
-                  size="icon"
+              <PaginationLink size="default" href="#" className="rounded-none!">
+                <PaginationLink
+                  size="default"
+                  href="#"
+                  className="rounded-none! font-anton-sc text-white/50 hover:text-black"
                 >
                   9
-                </Button>
+                </PaginationLink>
               </PaginationLink>
             </PaginationItem>
           </PaginationContent>
