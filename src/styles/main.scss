@@ -157,3 +157,49 @@ footer {
   background-repeat: no-repeat;
   position: relative;
 }
+
+.filter-nav {
+  ul {
+    li {
+      a {
+        display: block;
+        padding: 0.75rem 2rem;
+        color: #fff;
+        text-align: center;
+        border-bottom: 2px solid #2d2d2d;
+        transition: all 0.2s ease;
+
+        // default BG
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center -10px;
+
+        // HOVER
+        &:hover {
+          border-bottom-color: #f0131d; // red-600
+          background:
+            linear-gradient(
+              180deg,
+              rgba(3, 3, 3, 0.47) 35%,
+              rgba(240, 19, 29, 1) 69%,
+              rgba(20, 19, 19, 0.6) 98%
+            ),
+            url("/icons/union.svg") center -10px no-repeat;
+        }
+
+        // ACTIVE
+        &.active {
+          border-bottom-color: #f0131d;
+          background:
+            linear-gradient(
+              180deg,
+              rgba(3, 3, 3, 0.47) 35%,
+              rgba(240, 19, 29, 1) 69%,
+              rgba(20, 19, 19, 0.6) 98%
+            ),
+            url("/icons/union.svg") center -10px no-repeat;
+        }
+      }
+    }
+  }
+}

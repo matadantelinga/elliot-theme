@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import UpcomingGameCard from "../cards/upcoming-game-card";
-import Slider from "react-slick";
+import Slider, { Settings } from "react-slick";
 import SliderArrow from "../ui/slider-arrow";
 
 export const UpcomingGames = () => {
@@ -79,7 +79,7 @@ export const UpcomingGames = () => {
         "Pathologic 2 is a survival horror RPG set in a mysterious plague-ridden town. You play as a healer struggling",
     },
   ];
-  const settings = {
+  const settings: Settings = {
     dots: true,
     infinite: true,
     speed: 500,
@@ -107,7 +107,7 @@ export const UpcomingGames = () => {
         </Slider>
       </div>
 
-      <div className="block md:hidden col-span-12 grid grid-cols-1 space-y-5">
+      <div className="md:hidden col-span-12 grid grid-cols-1 space-y-5">
         {staticData.map((data, index) => (
           <UpcomingGameCard
             key={index}

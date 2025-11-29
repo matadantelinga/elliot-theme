@@ -1,11 +1,11 @@
+import { FilterNav } from "@/components/home/filter-nav";
+import { UpcomingGames } from "@/components/home/upcoming-games";
 import Container from "@/components/layout/container";
 import BannerSlider from "../components/layout/banner-slider";
 import FeatureSection from "../components/layout/feature-section";
 import GamesSection from "../components/layout/games-section";
 import PaginationSection from "../components/layout/pagination-section";
-import SearchSection from "../components/layout/search-section";
 import TitleSection from "../components/layout/title-section";
-import { UpcomingGames } from "@/components/home/upcoming-games";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
       <TitleSection title="announcements" subTitle="Upcoming GAMES" />
       <UpcomingGames />
       <TitleSection title="Most popular games" subTitle="ALL GAMES" />
-      <SearchSection />
+      <FilterNav />
       <GamesSection />
       <PaginationSection />
     </Container>
