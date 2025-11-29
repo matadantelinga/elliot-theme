@@ -7,7 +7,7 @@ import "@/styles/section.scss";
 import "@/styles/card.scss";
 import "@/styles/fonts/fonts.scss";
 import { Header } from "@/components/layout/header/header";
-import { Footer } from "@/components/layout/footer";
+import { Footer } from "@/components/layout/footer/footer";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
