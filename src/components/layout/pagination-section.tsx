@@ -15,7 +15,7 @@ export default function PaginationSection() {
         <Divider>
           <PaginationContent className="border-t border-b border-white/50">
             <PaginationItem>
-              <PaginationLink size={20} href="#">
+              <PaginationLink size="default" href="#">
                 <Button
                   variant="ghost"
                   className="font-anton-sc border-white/50 text-white/50"
@@ -26,7 +26,7 @@ export default function PaginationSection() {
               </PaginationLink>
             </PaginationItem>
             <PaginationItem>
-              <PaginationLink size={20} href="#">
+              <PaginationLink size="default" href="#">
                 <Button
                   variant="ghost"
                   className="font-anton-sc border-white/50 text-white/50"
@@ -37,7 +37,7 @@ export default function PaginationSection() {
               </PaginationLink>
             </PaginationItem>
             <PaginationItem>
-              <PaginationLink size={20} href="#">
+              <PaginationLink size="default" href="#">
                 <Button
                   variant="ghost"
                   className="font-anton-sc border-white/50 text-white/50"
@@ -51,7 +51,7 @@ export default function PaginationSection() {
               <PaginationEllipsis className="font-anton-sc border-white/50 text-white/50" />
             </PaginationItem>
             <PaginationItem>
-              <PaginationLink size={20} href="#">
+              <PaginationLink size="default" href="#">
                 <Button
                   variant="ghost"
                   className="font-anton-sc border-white/50 text-white/50"
