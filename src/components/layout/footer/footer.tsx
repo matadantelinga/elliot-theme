@@ -1,7 +1,6 @@
 "use client";
 
 import Container from "../container";
-import { SocialButtons } from "../social-buttons";
 import { FooterNav } from "./footer-nav";
 
 export const Footer = () => {
@@ -24,12 +23,6 @@ export const Footer = () => {
                   imply any affiliation with or endorsement by them.
                 </div>
               </div>
-            </div>
-            <div className="col-span-12">
-              <div className="text-center text-gray-300 text-sm mb-4">
-                Follow Us
-              </div>
-              <SocialButtons />
             </div>
           </div>
         </Container>
