@@ -64,10 +64,9 @@
 
 .upcoming-release-date {
   background-image: url("/icons/date-badge.svg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-
   padding: 10px 80px;
   display: inline-flex;
   align-items: center;
