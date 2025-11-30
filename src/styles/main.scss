@@ -2,6 +2,10 @@
   --color-c-red: #631216;
   --color-c-red-light: #f0131d;
   --color-c-gray: #151515;
+  --color-c-darkgreen: #227021;
+  --color-c-lightgreen: #41d63f;
+  --color-c-purple: #8570f6;
+  --color-c-gold: #e1a94c;
 }
 
 body {
@@ -36,4 +40,55 @@ body {
 
 .font-onest {
   font-family: var(--font-onest);
+}
+
+.text-c-darkgreen {
+  color: var(--color-c-darkgreen);
+}
+
+.text-c-lightgreen {
+  color: var(--color-c-lightgreen);
+}
+
+.text-c-purple {
+  color: var(--color-c-purple);
+}
+
+.text-c-gold {
+  color: var(--color-c-gold);
+}
+
+.bg-c-darkgreen {
+  background: var(--color-c-darkgreen);
+}
+
+.bg-c-lightgreen {
+  background: var(--color-c-lightgreen);
+}
+
+.bg-c-purple {
+  background: var(--color-c-purple);
+}
+
+.bg-c-gold {
+  background: var(--color-c-gold);
+}
+
+.bg-linear-green {
+  background: #41d63f;
+  background: -webkit-linear-gradient(
+    119deg,
+    rgba(65, 214, 63, 0.37) 0%,
+    rgba(34, 112, 33, 0.97) 100%
+  );
+  background: -moz-linear-gradient(
+    119deg,
+    rgba(65, 214, 63, 0.37) 0%,
+    rgba(34, 112, 33, 0.97) 100%
+  );
+  background: linear-gradient(
+    119deg,
+    rgba(65, 214, 63, 0.37) 0%,
+    rgba(34, 112, 33, 0.97) 100%
+  );
 }

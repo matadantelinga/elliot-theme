@@ -1,0 +1,31 @@
+header {
+  background: #41d63f;
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(65, 214, 63, 0.11) 0%,
+    rgba(33, 4, 4, 0.43) 100%
+  );
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(65, 214, 63, 0.11) 0%,
+    rgba(33, 4, 4, 0.43) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(65, 214, 63, 0.11) 0%,
+    rgba(33, 4, 4, 0.43) 100%
+  );
+}
+
+#home-main {
+  background: url(/images/home-landing.png) center -30% no-repeat;
+  background-size: cover;
+  min-height: 800px;
+  padding-top: 5rem;
+  h1 {
+    margin-bottom: 2rem;
+    span {
+      line-height: 1;
+    }
+  }
+}

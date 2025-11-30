@@ -3,25 +3,36 @@
 import Image from "next/image";
 import Container from "../container";
 import { MainNav } from "./main-nav";
+import { Button } from "@/components/ui/button";
 
 export const Header = () => {
   return (
     <>
-      <Container>
-        <header className="flex gap-2 items-center">
-          <div className="logo-wrapper flex-1">
-            <Image
-              src={"/images/logo.svg"}
-              width={153}
-              height={38}
-              alt="Logo"
-            />
+      <header className="fixed w-full min-h-20">
+        <Container>
+          <div className="flex gap-2 items-center">
+            <div className="logo-wrapper flex-1">
+              <Image
+                src={"/images/logo.svg"}
+                width={153}
+                height={38}
+                alt="Logo"
+              />
+            </div>
+            <div className="main-menu w-1/2 hidden md:block">
+              <MainNav />
+            </div>
+            <div className="buttons">
+              <Button
+                variant={"green"}
+                className="uppercase min-w-40 text-white bg-linear-green"
+              >
+                Log in
+              </Button>
+            </div>
           </div>
-          <div className="main-menu w-1/2 hidden md:block">
-            <MainNav />
-          </div>
-        </header>
-      </Container>
+        </Container>
+      </header>
     </>
   );
 };

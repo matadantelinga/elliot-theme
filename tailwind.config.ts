@@ -10,6 +10,10 @@ export default {
   theme: {
     extend: {
       colors: {
+        "c-darkgreen": "#227021",
+        "c-lightgreen": "#41D63F",
+        "c-purple": "#8570F6",
+        "c-gold": "#E1A94C",
         background: "var(--background)",
         foreground: "var(--foreground)",
         sidebar: {
@@ -52,5 +56,5 @@ export default {
       },
     },
   },
-  plugins: [require("tailwind-scrollbar-hide")],
+  //plugins: [require("tailwind-scrollbar-hide")],
 } satisfies Config;
