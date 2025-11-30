@@ -47,3 +47,37 @@
     }
   }
 }
+
+.milestone-card {
+  background: url(/images/bg-milestone.png) center center no-repeat;
+  background-size: cover;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: var(--color-c-lightgreen);
+  color: #fff;
+  .title {
+    background: url(/images/bg-kick.png) center bottom no-repeat;
+    background-size: 240px;
+    height: 80px;
+  }
+  &.vip-card {
+    background: url(/images/bg-vip.png) center center no-repeat;
+    background-size: cover;
+    border-color: var(--color-c-gold);
+    .title {
+      background: url(/images/decorator-vip.png) center bottom no-repeat;
+      background-size: 240px;
+      height: 80px;
+    }
+  }
+  &.legend-card {
+    background: url(/images/bg-legend.png) center center no-repeat;
+    background-size: cover;
+    border-color: var(--color-c-gold);
+    .title {
+      background: url(/images/decorator-vip.png) center bottom no-repeat;
+      background-size: 240px;
+      height: 80px;
+    }
+  }
+}

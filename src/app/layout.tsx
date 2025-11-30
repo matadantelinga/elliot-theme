@@ -1,7 +1,6 @@
 import { Footer } from "@/components/layout/footer/footer";
 import { Header } from "@/components/layout/header/header";
 import "@/styles/card.scss";
-import "@/styles/feature.scss";
 import "@/styles/main.scss";
 import "@/styles/section.scss";
 import type { Metadata } from "next";

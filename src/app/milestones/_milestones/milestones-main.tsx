@@ -1,8 +1,8 @@
 "use client";
 
-import { LeaderBoardsContainer } from "@/components/layout/leader-boards-container";
-import { LeaderBoardsNav } from "@/components/layout/leader-boards-nav";
 import { MainBg } from "@/components/layout/main-bg";
+import { MilestonesOverview } from "./milestones-overview";
+import { MilestonesContainer } from "./milestones-container";
 
 export const MilestonesMain = () => {
   return (
@@ -18,9 +18,12 @@ export const MilestonesMain = () => {
           <span className="text-c-lightgreen">Elliot</span> pass milestones to
           receive extra rewards!
         </div>
-        <div className="grid grid-cols-12 gap-4">
+        <div className="grid grid-cols-12 gap-2 py-10">
           <div className="col-span-12">
-           
+            <MilestonesOverview />
+          </div>
+          <div className="col-span-12">
+            <MilestonesContainer />
           </div>
         </div>
       </MainBg>

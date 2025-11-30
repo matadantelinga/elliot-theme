@@ -30,6 +30,8 @@ export const CsgoMain = () => {
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-12">
             <LeaderBoardsNav />
+          </div>
+          <div className="col-span-12">
             <LeaderBoardsContainer />
           </div>
         </div>

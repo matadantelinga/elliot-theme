@@ -101,3 +101,30 @@ body {
     rgba(34, 112, 33, 0.97) 100%
   );
 }
+
+.bg-linear-gold {
+  background: #e1a94c;
+  background: -webkit-linear-gradient(
+    124deg,
+    rgba(225, 169, 76, 1) 0%,
+    rgba(203, 225, 76, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    124deg,
+    rgba(225, 169, 76, 1) 0%,
+    rgba(203, 225, 76, 1) 100%
+  );
+  background: linear-gradient(
+    124deg,
+    rgba(225, 169, 76, 1) 0%,
+    rgba(203, 225, 76, 1) 100%
+  );
+}
+
+.bg-linear-gold,
+.bg-linear-green {
+  &:disabled {
+    background: #151815;
+    color: #e3e3e3;
+  }
+}
