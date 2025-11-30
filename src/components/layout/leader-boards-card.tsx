@@ -40,7 +40,7 @@ export const LeaderBoardCard: React.FC<iLeaderBoardCardProps> = ({ data }) => {
             <div className="text-gray-400 text-xs">{data.team}</div>
             <div className="text-white font-extrabold">${data.earning}</div>
             <div className="text-gray-400 text-xs">Prize</div>
-            <div className="text-white text-2xl font-extrabold pt-6">
+            <div className="prize text-white text-3xl font-extrabold pt-6 -skew-y-6 w-fit m-auto">
               ${data.prize}
             </div>
           </CardContent>

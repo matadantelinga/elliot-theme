@@ -45,6 +45,8 @@ footer {
 }
 
 #leader-boards-container {
+  background: url(/images/leader-bg.png) center center no-repeat;
+  background-size: cover;
   .leader-boards-card {
     .bg-card {
       padding: 3rem 1rem 0.5rem;
@@ -58,7 +60,7 @@ footer {
         }
         .position {
           position: absolute;
-          left: 33%;
+          left: 38%;
           bottom: -10px;
           padding: 5px;
           color: #fff;
@@ -94,11 +96,17 @@ footer {
           );
         }
       }
+      .prize {
+        color: var(--color-c-gold);
+      }
     }
     .card-2 {
       background: url(/images/bg-card-2.png) center center no-repeat;
       background-size: cover;
       border-color: #fff;
+      .prize {
+        color: #fff;
+      }
       .avatar {
         img {
           border-color: #fff;
@@ -127,6 +135,9 @@ footer {
       background: url(/images/bg-card-3.png) center center no-repeat;
       background-size: cover;
       border-color: #856022;
+      .prize {
+        color: #856022;
+      }
       .avatar {
         img {
           border-color: #856022;

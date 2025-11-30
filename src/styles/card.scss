@@ -1,0 +1,49 @@
+.social-card {
+  background: url(/images/bg-soc-btn.png) center center no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  &.card-discord,
+  &.card-kick,
+  &.card-twitter {
+    border-width: 0.5px;
+    border-style: solid;
+    .details {
+      flex: 1;
+      .title {
+        display: flex;
+        align-items: center;
+        min-height: 60px;
+      }
+    }
+  }
+
+  &.card-kick {
+    border-color: #3fce3c;
+    .details {
+      .title {
+        background: url(/images/bg-kick.png) left bottom no-repeat;
+        background-size: 240px;
+      }
+    }
+  }
+
+  &.card-twitter {
+    border-color: #3fbfff;
+    .details {
+      .title {
+        background: url(/images/bg-tw.png) left bottom no-repeat;
+        background-size: 240px;
+      }
+    }
+  }
+
+  &.card-discord {
+    border-color: #9c3fff;
+    .details {
+      .title {
+        background: url(/images/bg-dc.png) left bottom no-repeat;
+        background-size: 240px;
+      }
+    }
+  }
+}

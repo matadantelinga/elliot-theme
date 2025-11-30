@@ -5,6 +5,7 @@ export interface iLeaderBoardItem {
   earning: string;
   prize: string;
   name: string;
+  showCrown?: boolean;
 }
 
 export interface iLeaderBoardState {

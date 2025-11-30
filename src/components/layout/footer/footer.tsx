@@ -65,7 +65,7 @@ export const Footer = () => {
                   </span>
                   <span>
                     {" "}
-                    Responsinble <br /> Gambling
+                    Responsible <br /> Gambling
                   </span>
                 </div>
                 <div className="text-gray-400 text-sm">
