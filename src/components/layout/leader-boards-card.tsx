@@ -12,7 +12,7 @@ interface iLeaderBoardCardProps {
 export const LeaderBoardCard: React.FC<iLeaderBoardCardProps> = ({ data }) => {
   return (
     <>
-      <div className="w-full leader-boards-card py-14">
+      <div className="w-full leader-boards-card py-6 md:py-14">
         <Card
           className={`card-${data.position} ${data.position === 1 && "-mt-9"}`}
         >
@@ -32,15 +32,17 @@ export const LeaderBoardCard: React.FC<iLeaderBoardCardProps> = ({ data }) => {
             </div>
           </CardHeader>
           <CardContent className="py-6 text-center">
-            <div className="name font-extrabold text-xl text-white mb-2">
+            <div className="name font-extrabold text-2xl text-white mb-2">
               {data.name.length > 3
                 ? data.name.slice(0, 3) + "******"
                 : data.name}
             </div>
-            <div className="text-gray-400 text-xs">{data.team}</div>
-            <div className="text-white font-extrabold">${data.earning}</div>
-            <div className="text-gray-400 text-xs">Prize</div>
-            <div className="prize text-white text-3xl font-extrabold pt-6 -skew-y-6 w-fit m-auto">
+            <div className="text-gray-400 text-sm md:text-xs">Wagered</div>
+            <div className="text-white font-extrabold text-xl">
+              ${data.earning}
+            </div>
+            <div className="text-gray-400 pt-4 text-sm md:text-xs">Prize</div>
+            <div className="prize text-white text-4xl font-extrabold pt-0 -skew-y-6 w-fit m-auto">
               ${data.prize}
             </div>
           </CardContent>

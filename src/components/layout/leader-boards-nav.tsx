@@ -42,11 +42,11 @@ export const LeaderBoardsNav = () => {
 
   return (
     <>
-      <div className="leaderboard-nav flex gap-2 items-center justify-center mb-14">
+      <div className="leaderboard-nav flex flex-wrap gap-2 items-center justify-center mb-4 md:mb-14">
         {tabNavs.map((nav, index) => (
           <React.Fragment key={index}>
             <div
-              className={`col w-[250px] text-center cursor-pointer ${nav.active ? "active opacity-100" : "opacity-25"}`}
+              className={`col w-1/4 md:w-[250px] text-center cursor-pointer ${nav.active ? "active opacity-100" : "opacity-25"}`}
               onClick={() => onNavClick(nav.type)}
             >
               <Image

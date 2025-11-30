@@ -10,7 +10,7 @@ export const LeaderBoards = () => {
     <>
       <section>
         <Container>
-          <div className="grid grid-cols-12 py-10 gap-14">
+          <div className="grid grid-cols-12 py-10 gap-4">
             <div className="col-span-12">
               <SectionTitle title="LEADERBOARDS">
                 Play under code{" "}

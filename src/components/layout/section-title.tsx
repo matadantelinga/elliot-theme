@@ -13,8 +13,10 @@ export const SectionTitle: React.FC<iSectionTitleProps> = ({
   return (
     <>
       <div className="text-center text-white">
-        <h2 className="font-black italic uppercase text-6xl mb-4">{title}</h2>
-        <div className="max-w-md m-auto">
+        <h2 className="font-black italic uppercase text-3xl md:text-6xl mb-4">
+          {title}
+        </h2>
+        <div className="w-full max-w-md m-auto">
           <p className="text-center font-bold">{children}</p>
         </div>
       </div>

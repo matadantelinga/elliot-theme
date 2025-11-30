@@ -81,3 +81,127 @@
     }
   }
 }
+
+#leader-boards-container {
+  background: url(/images/leader-bg.png) center center no-repeat;
+  background-size: cover;
+  .leader-boards-card {
+    .bg-card {
+      padding: 3rem 1rem 0.5rem;
+    }
+    .card-1,
+    .card-2,
+    .card-3 {
+      .avatar {
+        img {
+          border-width: 2px;
+        }
+        .position {
+          position: absolute;
+          left: 38%;
+          bottom: -10px;
+          padding: 5px;
+          color: #fff;
+          width: 60px;
+          text-align: center;
+          @media (max-width: 767px) {
+            left: 42%;
+          }
+        }
+      }
+    }
+    .card-1 {
+      background: url(/images/bg-card-1.png) center center no-repeat;
+      background-size: cover;
+      border-color: var(--color-c-gold);
+      .avatar {
+        img {
+          border-color: var(--color-c-gold);
+        }
+        .position {
+          background: #d6ce3f;
+          background: -webkit-linear-gradient(
+            124deg,
+            rgba(214, 206, 63, 1) 0%,
+            rgba(112, 97, 33, 1) 100%
+          );
+          background: -moz-linear-gradient(
+            124deg,
+            rgba(214, 206, 63, 1) 0%,
+            rgba(112, 97, 33, 1) 100%
+          );
+          background: linear-gradient(
+            124deg,
+            rgba(214, 206, 63, 1) 0%,
+            rgba(112, 97, 33, 1) 100%
+          );
+        }
+      }
+      .prize {
+        color: var(--color-c-gold);
+      }
+    }
+    .card-2 {
+      background: url(/images/bg-card-2.png) center center no-repeat;
+      background-size: cover;
+      border-color: #fff;
+      .prize {
+        color: #fff;
+      }
+      .avatar {
+        img {
+          border-color: #fff;
+        }
+        .position {
+          background: #fff;
+          background: -webkit-linear-gradient(
+            124deg,
+            rgba(255, 255, 255, 1) 0%,
+            rgba(90, 90, 90, 1) 100%
+          );
+          background: -moz-linear-gradient(
+            124deg,
+            rgba(255, 255, 255, 1) 0%,
+            rgba(90, 90, 90, 1) 100%
+          );
+          background: linear-gradient(
+            124deg,
+            rgba(255, 255, 255, 1) 0%,
+            rgba(90, 90, 90, 1) 100%
+          );
+        }
+      }
+    }
+    .card-3 {
+      background: url(/images/bg-card-3.png) center center no-repeat;
+      background-size: cover;
+      border-color: #856022;
+      .prize {
+        color: #856022;
+      }
+      .avatar {
+        img {
+          border-color: #856022;
+        }
+        .position {
+          background: #908b20;
+          background: -webkit-linear-gradient(
+            124deg,
+            rgba(144, 139, 32, 1) 0%,
+            rgba(70, 59, 13, 1) 100%
+          );
+          background: -moz-linear-gradient(
+            124deg,
+            rgba(144, 139, 32, 1) 0%,
+            rgba(70, 59, 13, 1) 100%
+          );
+          background: linear-gradient(
+            124deg,
+            rgba(144, 139, 32, 1) 0%,
+            rgba(70, 59, 13, 1) 100%
+          );
+        }
+      }
+    }
+  }
+}

@@ -12,7 +12,7 @@ interface iFooterNavProps {
 export const FooterNav: React.FC<iFooterNavProps> = ({ title, links }) => {
   return (
     <>
-      <div className="font-black text-white text-xl mb-4">{title}</div>
+      <div className="font-black text-white text-xl mb-2 md:mb-4">{title}</div>
       <ul>
         {links.map((l, index) => (
           <React.Fragment key={index}>
