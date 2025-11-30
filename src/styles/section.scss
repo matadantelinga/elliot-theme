@@ -17,6 +17,11 @@ header {
   );
 }
 
+footer {
+  background: url(/images/footer-bg.png) center bottom no-repeat;
+  background-size: cover;
+}
+
 #home-main {
   background: url(/images/home-landing.png) center -30% no-repeat;
   background-size: cover;

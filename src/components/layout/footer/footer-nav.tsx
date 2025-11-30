@@ -1,59 +1,31 @@
 "use client";
+import { iNavItem } from "@/lib/interfaces/iNav";
+import { link } from "fs";
 import Link from "next/link";
+import React from "react";
 
-export const FooterNav = () => {
+interface iFooterNavProps {
+  title: string;
+  links: iNavItem[];
+}
+
+export const FooterNav: React.FC<iFooterNavProps> = ({ title, links }) => {
   return (
     <>
-      <ul className="flex flex-wrap items-center justify-center md:divide-x md:divide-gray-500 gap-2">
-        <li className="pl-6 pr-6">
-          <Link
-            className="text-gray-300 font-bold font-anton-sc uppercase hover:text-gray-400 ease-in"
-            href={"#"}
-          >
-            All Games
-          </Link>
-        </li>
-        <li className="pl-6 pr-6">
-          <Link
-            className="text-gray-300 font-bold font-anton-sc uppercase hover:text-gray-400 ease-in"
-            href={"#"}
-          >
-            About
-          </Link>
-        </li>
-        <li className="pl-6 pr-6">
-          <Link
-            className="text-gray-300 font-bold font-anton-sc uppercase hover:text-gray-400 ease-in"
-            href={"#"}
-          >
-            Affiliates
-          </Link>
-        </li>
-        <hr className="block md:hidden w-full border border-gray-400 scale-y-[0.3] origin-center" />
-        <li className="pl-6 pr-6">
-          <Link
-            className="text-gray-300 font-bold font-anton-sc uppercase hover:text-gray-400 ease-in"
-            href={"#"}
-          >
-            Operator
-          </Link>
-        </li>
-        <li className="pl-6 pr-6">
-          <Link
-            className="text-gray-300 font-bold font-anton-sc uppercase hover:text-gray-400 ease-in"
-            href={"#"}
-          >
-            FAQ
-          </Link>
-        </li>
-        <li className="pl-6 pr-6">
-          <Link
-            className="text-gray-300 font-bold font-anton-sc uppercase hover:text-gray-400 ease-in"
-            href={"#"}
-          >
-            Career
-          </Link>
-        </li>
+      <div className="font-black text-white text-xl mb-4">{title}</div>
+      <ul>
+        {links.map((l, index) => (
+          <React.Fragment key={index}>
+            <li>
+              <Link
+                className="text-gray-300 font-bold font-anton-sc uppercase hover:text-gray-400 ease-in text-xs py-2 block"
+                href={l.url}
+              >
+                {l.label}
+              </Link>
+            </li>
+          </React.Fragment>
+        ))}
       </ul>
     </>
   );
