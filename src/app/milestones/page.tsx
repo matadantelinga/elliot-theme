@@ -4,6 +4,7 @@ const MilestonesPage = () => {
   return (
     <>
       <MilestonesMain />
+      <section className="star-bg py-4"></section>
     </>
   );
 };
