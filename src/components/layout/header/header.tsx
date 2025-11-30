@@ -11,7 +11,7 @@ export const Header = () => {
       <header className="fixed w-full min-h-20">
         <Container>
           <div className="flex gap-2 items-center">
-            <div className="logo-wrapper flex-1">
+            <div className="logo-wrapper w-[200px]">
               <Image
                 src={"/images/logo.svg"}
                 width={153}
@@ -19,7 +19,7 @@ export const Header = () => {
                 alt="Logo"
               />
             </div>
-            <div className="main-menu w-1/2 hidden md:block">
+            <div className="main-menu flex-1 hidden md:block">
               <MainNav />
             </div>
             <div className="buttons">

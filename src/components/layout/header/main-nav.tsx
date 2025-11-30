@@ -10,7 +10,7 @@ export const MainNav = () => {
           <li className="p-1 pr-2">
             <Link
               className="text-white flex items-center gap-2 font-bold uppercase hover:text-gray-300 ease-in"
-              href={"#"}
+              href={"/"}
             >
               <Image src={"icons/home.svg"} alt="home" width={16} height={16} />{" "}
               HOME
@@ -19,7 +19,7 @@ export const MainNav = () => {
           <li className="p-1 pr-2">
             <Link
               className="text-white flex items-center gap-2 font-bold uppercase hover:text-gray-300 ease-in"
-              href={"#"}
+              href={"/shuffle"}
             >
               <Image
                 src={"icons/leader.svg"}
@@ -33,7 +33,7 @@ export const MainNav = () => {
           <li className="p-1 pr-2">
             <Link
               className="text-white flex items-center gap-2 font-bold uppercase hover:text-gray-300 ease-in"
-              href={"#"}
+              href={"/milestones"}
             >
               <Image
                 src={"icons/milestones.svg"}
