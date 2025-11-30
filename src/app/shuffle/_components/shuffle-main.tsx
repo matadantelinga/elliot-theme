@@ -13,12 +13,12 @@ export const ShuffleMain = () => {
             <span className="text-white font-black italic text-4xl block uppercase text-center">
               $2,500
             </span>
-            <span className="text-c-purple font-black italic text-4xl block uppercase text-center">
+            <span className="text-c-purple font-black italic text-3xl md:text-4xl block uppercase text-center">
               SHUFFLE
             </span>
           </div>
 
-          <span className="text-white font-black italic text-6xl block uppercase text-center">
+          <span className="text-white font-black italic text-4xl md:text-6xl block uppercase text-center">
             LEADERBOARDS
           </span>
         </h1>

@@ -13,12 +13,12 @@ export const RustMain = () => {
             <span className="text-white font-black italic text-4xl block uppercase text-center">
               $2,500
             </span>
-            <div className="text-white font-black italic text-4xl block uppercase text-center">
+            <div className="text-white font-black italic text-3xl md:text-4xl block uppercase text-center">
               RUST<span className="text-c-blue">SITE</span>
             </div>
           </div>
 
-          <span className="text-white font-black italic text-6xl block uppercase text-center">
+          <span className="text-white font-black italic text-4xl md:text-6xl block uppercase text-center">
             LEADERBOARDS
           </span>
         </h1>
