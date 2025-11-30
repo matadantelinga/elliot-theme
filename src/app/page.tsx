@@ -1,3 +1,4 @@
+import { LeaderBoards } from "@/components/home/leader-boards";
 import { MainSection } from "@/components/home/main-section";
 import Container from "@/components/layout/container";
 import { SectionTitle } from "@/components/layout/section-title";
@@ -6,20 +7,7 @@ export default function Home() {
   return (
     <>
       <MainSection />
-      <section>
-        <Container>
-          <div className="grid grid-cols-12 py-10">
-            <div className="col-span-12">
-              <SectionTitle title="LEADERBOARDS">
-                Play under code{" "}
-                <span className="text-c-lightgreen">Elliot</span> on partnered
-                sites to compete against other players and climb the
-                leaderboards!
-              </SectionTitle>
-            </div>
-          </div>
-        </Container>
-      </section>
+      <LeaderBoards />
       <section>
         <Container>
           <div className="grid grid-cols-12 py-10">

@@ -34,3 +34,12 @@ footer {
     }
   }
 }
+
+.leaderboard-nav {
+  .col {
+    &.active {
+      background: url(/images/active-bg.png) center center no-repeat;
+      background-size: contain;
+    }
+  }
+}
