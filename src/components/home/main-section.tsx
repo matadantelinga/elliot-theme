@@ -1,9 +1,20 @@
 "use client";
 
 import { MainBg } from "../layout/main-bg";
+import Image from "next/image";
 import { Button } from "../ui/button";
+import { useRouter } from "next/navigation";
 
 export const MainSection = () => {
+  const router = useRouter();
+  const gotoLeaderBoards = () => {
+    router.push("/shuffle");
+  };
+
+  const gotoMilestones = () => {
+    router.push("/milestones");
+  };
+
   return (
     <>
       <MainBg id="home-main">
@@ -21,10 +32,30 @@ export const MainSection = () => {
           More.
         </div>
         <div className="buttons flex py-10 items-center flex-wrap gap-6 justify-center">
-          <Button variant={"green"} className="uppercase min-w-[200px]">
+          <Button
+            variant={"green"}
+            className="uppercase min-w-[200px] flex gap-2 items-center"
+            onClick={gotoLeaderBoards}
+          >
+            <Image
+              src={"icons/leader-black.svg"}
+              alt="leader"
+              width={16}
+              height={16}
+            />{" "}
             Leaderboard
           </Button>
-          <Button variant={"linegreen"} className="uppercase min-w-[200px]">
+          <Button
+            variant={"linegreen"}
+            className="uppercase min-w-[200px] flex gap-2 items-center"
+            onClick={gotoMilestones}
+          >
+            <Image
+              src={"icons/milestones.svg"}
+              alt="leader"
+              width={16}
+              height={16}
+            />{" "}
             MILESTONES
           </Button>
         </div>

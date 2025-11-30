@@ -4,6 +4,7 @@ import Image from "next/image";
 import Container from "../container";
 import { MainNav } from "./main-nav";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export const Header = () => {
   return (
@@ -12,12 +13,14 @@ export const Header = () => {
         <Container>
           <div className="flex gap-2 items-center">
             <div className="logo-wrapper w-[200px]">
-              <Image
-                src={"/images/logo.svg"}
-                width={153}
-                height={38}
-                alt="Logo"
-              />
+              <Link href={"/"}>
+                <Image
+                  src={"/images/logo.svg"}
+                  width={153}
+                  height={38}
+                  alt="Logo"
+                />
+              </Link>
             </div>
             <div className="main-menu flex-1 hidden md:block">
               <MainNav />
