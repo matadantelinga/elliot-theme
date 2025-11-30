@@ -48,6 +48,32 @@ footer {
   }
 }
 
+#csgo-main {
+  background: url(/images/lb-csgo-bg.png) center top no-repeat;
+  background-size: cover;
+  min-height: 800px;
+  padding-top: 5rem;
+  h1 {
+    margin-bottom: 2rem;
+    span {
+      line-height: 1;
+    }
+  }
+}
+
+#rust-main {
+  background: url(/images/lb-rust-bg.png) center top no-repeat;
+  background-size: cover;
+  min-height: 800px;
+  padding-top: 5rem;
+  h1 {
+    margin-bottom: 2rem;
+    span {
+      line-height: 1;
+    }
+  }
+}
+
 .leaderboard-nav {
   .col {
     &.active {

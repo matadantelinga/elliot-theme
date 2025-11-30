@@ -15,9 +15,13 @@ import { cn } from "@/lib/utils";
 
 interface iLeaderBoardProps {
   data: iLeaderBoardItem[];
+  theme: "purple" | "lightgreen" | "blue" | "white";
 }
 
-export const LeaderBoardsTable: React.FC<iLeaderBoardProps> = ({ data }) => {
+export const LeaderBoardsTable: React.FC<iLeaderBoardProps> = ({
+  data,
+  theme,
+}) => {
   return (
     <>
       <div className="w-full">
@@ -69,7 +73,7 @@ export const LeaderBoardsTable: React.FC<iLeaderBoardProps> = ({ data }) => {
                 <TableCell className="text-gray-400 font-medium w-[100px]">
                   ${lb.earning.toLocaleString()}
                 </TableCell>
-                <TableCell className="text-c-purple font-medium w-[150px]">
+                <TableCell className={`text-c-${theme} font-medium w-[150px]`}>
                   ${lb.prize.toLocaleString()}
                 </TableCell>
               </TableRow>

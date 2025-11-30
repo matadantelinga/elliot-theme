@@ -6,6 +6,7 @@
   --color-c-lightgreen: #41d63f;
   --color-c-purple: #8570f6;
   --color-c-gold: #e1a94c;
+  --color-c-blue: #3fbfff;
 }
 
 body {
@@ -24,6 +25,10 @@ body {
 
 .bg-c-red-light {
   background-color: var(--color-c-red-light);
+}
+
+.bg-c-blue {
+  background-color: var(--color-c-blue);
 }
 
 .bg-c-gray {
@@ -56,6 +61,10 @@ body {
 
 .text-c-gold {
   color: var(--color-c-gold);
+}
+
+.text-c-blue {
+  color: var(--color-c-blue);
 }
 
 .bg-c-darkgreen {

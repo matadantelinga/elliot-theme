@@ -4,7 +4,7 @@ import Container from "@/components/layout/container";
 import { LeaderBoardsTable } from "@/components/layout/leader-boards-table";
 import { iLeaderBoardItem } from "@/lib/interfaces/iLeaderBoard";
 
-export const ShuffleLeaderBoards = () => {
+export const CsgoLeaderBoards = () => {
   const data: iLeaderBoardItem[] = [
     {
       prize: "20,000",
@@ -70,7 +70,7 @@ export const ShuffleLeaderBoards = () => {
         <Container>
           <div className="grid grid-cols-12 gap-4 py-10">
             <div className="col-span-12">
-              <LeaderBoardsTable data={data} theme="purple" />
+              <LeaderBoardsTable data={data} theme="lightgreen"/>
             </div>
           </div>
         </Container>
