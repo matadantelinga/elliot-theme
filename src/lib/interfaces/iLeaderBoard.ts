@@ -1,5 +1,5 @@
 export interface iLeaderBoardItem {
-  position: 1 | 2 | 3;
+  position: 1 | 2 | 3 | number;
   avatar: string;
   team: string;
   earning: string;

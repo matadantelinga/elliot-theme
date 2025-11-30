@@ -35,6 +35,19 @@ footer {
   }
 }
 
+#shuffle-main {
+  background: url(/images/lb-shuffle-bg.png) center top no-repeat;
+  background-size: cover;
+  min-height: 800px;
+  padding-top: 5rem;
+  h1 {
+    margin-bottom: 2rem;
+    span {
+      line-height: 1;
+    }
+  }
+}
+
 .leaderboard-nav {
   .col {
     &.active {
@@ -165,8 +178,22 @@ footer {
   }
 }
 
-#social-buttons {
+#social-buttons,
+.star-bg {
   background: url(/images/socialbg.png) center top no-repeat;
   background-size: cover;
   padding-bottom: 4rem;
+}
+
+.custom-table-row {
+  border-radius: 8px;
+  border: 0.5px solid #333;
+}
+
+.custom-table-row:nth-child(odd) {
+  background-color: #0e0e0e;
+}
+
+.custom-table-row:nth-child(even) {
+  background-color: #121212;
 }

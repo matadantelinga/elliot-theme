@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${onest.variable} antialiased bg-black`}
+        className={`${onest.variable} antialiased bg-[#080A08]`}
         suppressHydrationWarning
       >
         <Header />
