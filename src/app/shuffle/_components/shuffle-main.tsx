@@ -32,7 +32,7 @@ export const ShuffleMain = () => {
             <LeaderBoardsNav />
           </div>
           <div className="col-span-12">
-            <LeaderBoardsContainer />
+            <LeaderBoardsContainer theme="purple" />
           </div>
         </div>
       </MainBg>

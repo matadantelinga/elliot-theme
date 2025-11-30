@@ -32,7 +32,7 @@ export const CsgoMain = () => {
             <LeaderBoardsNav />
           </div>
           <div className="col-span-12">
-            <LeaderBoardsContainer />
+            <LeaderBoardsContainer theme="lightgreen" />
           </div>
         </div>
       </MainBg>

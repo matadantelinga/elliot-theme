@@ -3,8 +3,15 @@
 import { useLeaderBoardStore } from "@/hooks/use-leaderboards";
 import React from "react";
 import { LeaderBoardCard } from "./leader-boards-card";
+import { CountDownTimer } from "./countdown-time";
 
-export const LeaderBoardsContainer = () => {
+interface iLeaderBoardsContainerProps {
+  theme: "purple" | "lightgreen" | "blue";
+}
+
+export const LeaderBoardsContainer: React.FC<iLeaderBoardsContainerProps> = (
+  theme
+) => {
   const { leaderBoards } = useLeaderBoardStore();
 
   return (
@@ -16,6 +23,9 @@ export const LeaderBoardsContainer = () => {
               <LeaderBoardCard data={lb} />
             </div>
           ))}
+        </div>
+        <div className="col-span-12">
+          <CountDownTimer theme={theme.theme} />
         </div>
       </div>
     </>

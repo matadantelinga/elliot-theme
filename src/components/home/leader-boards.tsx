@@ -21,7 +21,9 @@ export const LeaderBoards = () => {
             </div>
             <div className="col-span-12">
               <LeaderBoardsNav />
-              <LeaderBoardsContainer />
+            </div>
+            <div className="col-span-12">
+              <LeaderBoardsContainer theme="lightgreen" />
             </div>
           </div>
         </Container>

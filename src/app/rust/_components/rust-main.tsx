@@ -32,7 +32,7 @@ export const RustMain = () => {
             <LeaderBoardsNav />
           </div>
           <div className="col-span-12">
-            <LeaderBoardsContainer />
+            <LeaderBoardsContainer theme="blue" />
           </div>
         </div>
       </MainBg>
