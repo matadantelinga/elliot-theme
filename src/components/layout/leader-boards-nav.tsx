@@ -1,8 +1,14 @@
+"use client";
+import {
+  initialLeaderBoards,
+  useLeaderBoardStore,
+} from "@/hooks/use-leaderboards";
 import { iLeaderBoardsNav } from "@/lib/interfaces/iNav";
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 export const LeaderBoardsNav = () => {
+  const { setLeaderBoards } = useLeaderBoardStore();
   const [tabNavs, setTabNavs] = useState<iLeaderBoardsNav[]>([
     {
       image: "/images/magic.png",
@@ -22,8 +28,6 @@ export const LeaderBoardsNav = () => {
   ]);
 
   const onNavClick = (type: "csgo" | "rust" | "shuffle") => {
-    console.log(type);
-
     setTabNavs((prev) =>
       prev.map((item) => ({
         ...item,
@@ -31,9 +35,14 @@ export const LeaderBoardsNav = () => {
       }))
     );
   };
+
+  useEffect(() => {
+    setLeaderBoards(initialLeaderBoards);
+  }, []);
+
   return (
     <>
-      <div className="leaderboard-nav flex gap-2 items-center justify-center">
+      <div className="leaderboard-nav flex gap-2 items-center justify-center mb-14">
         {tabNavs.map((nav, index) => (
           <React.Fragment key={index}>
             <div

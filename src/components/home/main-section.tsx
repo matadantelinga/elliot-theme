@@ -15,7 +15,7 @@ export const MainSection = () => {
             REWARDS
           </span>
         </h1>
-        <div className="text text-white text-center max-w-sm m-auto">
+        <div className="text text-white text-center max-w-sm m-auto font-bold">
           Explore <span className="text-c-lightgreen">VIP Rewards</span>, Swing
           to the Top of the Leaderboards, & Stay Alert for Wild Giveaways and
           More.
