@@ -5,11 +5,15 @@ import Container from "../container";
 import { MainNav } from "./main-nav";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export const Header = () => {
+  const pathname = usePathname();
+  const headerClass = pathname === "/shuffle" ? "header-purple" : pathname === "/rust" ? "header-blue" : "";
+
   return (
     <>
-      <header className="fixed w-full min-h-20 z-20">
+      <header className={`fixed w-full min-h-16 z-20 ${headerClass}`}>
         <Container>
           <div className="flex gap-2 items-center">
             <div className="logo-wrapper w-[200px]">
