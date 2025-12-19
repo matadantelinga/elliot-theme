@@ -9,7 +9,7 @@ import Link from "next/link";
 export const Header = () => {
   return (
     <>
-      <header className="fixed w-full min-h-20">
+      <header className="fixed w-full min-h-20 z-20">
         <Container>
           <div className="flex gap-2 items-center">
             <div className="logo-wrapper w-[200px]">
