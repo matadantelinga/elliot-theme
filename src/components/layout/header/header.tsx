@@ -9,11 +9,18 @@ import { usePathname } from "next/navigation";
 
 export const Header = () => {
   const pathname = usePathname();
-  const headerClass = pathname === "/shuffle" ? "header-purple" : pathname === "/rust" ? "header-blue" : "";
+  const headerClass =
+    pathname === "/shuffle"
+      ? "header-purple"
+      : pathname === "/rust"
+        ? "header-blue"
+        : "";
 
   return (
     <>
-      <header className={`fixed w-full min-h-16 z-20 ${headerClass}`}>
+      <header
+        className={`fixed w-full min-h-16 z-20 backdrop-blur-lg ${headerClass}`}
+      >
         <Container>
           <div className="flex gap-2 items-center">
             <div className="logo-wrapper w-[200px]">
