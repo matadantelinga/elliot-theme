@@ -89,10 +89,10 @@ export const LeaderBoardsTable: React.FC<iLeaderBoardProps> = ({
                     background: getRowBackground(index),
                   }}
                 >
-                  <TableCell className="text-gray-400 font-medium rounded-l-lg text-center py-5 px-4">
+                  <TableCell className="border-y border-l border-white/5 text-gray-400 font-medium rounded-l-lg text-center py-5 px-4">
                     #{lb.position}
                   </TableCell>
-                  <TableCell className="py-5 px-4">
+                  <TableCell className="border-y border-white/5 py-5 px-4">
                     <div className="flex items-center gap-3">
                       <Image
                         src={lb.avatar}
@@ -108,11 +108,11 @@ export const LeaderBoardsTable: React.FC<iLeaderBoardProps> = ({
                       </div>
                     </div>
                   </TableCell>
-                  <TableCell className="text-gray-400 font-medium w-[100px] py-5 px-4">
+                  <TableCell className="border-y border-white/5 text-gray-400 font-medium w-[100px] py-5 px-4">
                     ${lb.earning.toLocaleString()}
                   </TableCell>
                   <TableCell
-                    className={`text-c-${theme} font-medium w-[150px] rounded-r-lg py-5 px-4`}
+                    className={`border-y border-r border-white/5 text-c-${theme} font-medium w-[150px] rounded-r-lg py-5 px-4`}
                   >
                     ${lb.prize.toLocaleString()}
                   </TableCell>
